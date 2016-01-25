@@ -39,4 +39,4 @@ ELSE()
   ADD_SUBDIRECTORY(luajit-2.0)
 ENDIF()
 
-ADD_SUBDIRECTORY(luarocks)
+#ADD_SUBDIRECTORY(luarocks)
