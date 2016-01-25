@@ -95,7 +95,7 @@ SET(LUAROCKS_FILES
   cache.lua refresh_cache.lua loader.lua admin_remove.lua fetch/hg.lua
   fetch/git_file.lua new_version.lua lint.lua purge.lua
   doc.lua fetch/git_http.lua path_cmd.lua upload.lua upload/api.lua upload/multipart.lua
-  write_rockspec.lua)
+  write_rockspec.lua config_cmd.lua)
 
 FOREACH(LUAROCKS_FILE ${LUAROCKS_FILES})
   GET_FILENAME_COMPONENT(_subpath "${LUAROCKS_FILE}" PATH)
